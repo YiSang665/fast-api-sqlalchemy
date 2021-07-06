@@ -1,0 +1,8 @@
+db:
+  image: postgres:13
+  environment:
+    POSTGRES_DB: "db"
+    POSTGRES_USER: "developer"
+    POSTGRES_PASSWORD: "secret"
+  ports:
+    - "5432:5432"  # Only for development !!!
